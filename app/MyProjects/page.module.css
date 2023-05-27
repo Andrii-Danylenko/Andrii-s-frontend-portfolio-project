@@ -1,0 +1,23 @@
+.text {
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 48px;
+}
+.projects p {
+  color: #FFFFFF;
+}
+.projects {
+  text-align: center;
+ width: 90%;
+ margin: 0 auto;
+ display: flex;
+ margin-top: 4rem;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+.projects a {
+  text-decoration: none;
+  color: #FFFFFF;
+}

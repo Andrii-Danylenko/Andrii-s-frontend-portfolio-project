@@ -1,0 +1,19 @@
+.cursor {
+    color: #ABB2BF;
+    display: inline-block;
+
+    width: 8px;
+    height: 1rem;
+    background-color: #ABB2BF;
+
+    animation: cursor .8s infinite;
+}
+
+@keyframes cursor {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+}
